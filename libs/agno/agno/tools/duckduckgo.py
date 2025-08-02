@@ -5,7 +5,7 @@ from agno.tools import Toolkit
 from agno.utils.log import log_debug
 
 try:
-    from duckduckgo_search import DDGS
+    from ddgs import DDGS
 except ImportError:
     raise ImportError("`duckduckgo-search` not installed. Please install using `pip install duckduckgo-search`")
 
